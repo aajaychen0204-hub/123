@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #caf0f8;
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  pointer-events: none; /* 讓滑鼠可以穿過畫布操作底下的 iframe */
+}
+
+iframe {
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  z-index: 1;
+}
