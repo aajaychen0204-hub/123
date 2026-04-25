@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+/* 確保 p5.js 的 DOM 元件與 iframe 層級正確 */
+iframe {
+  border: none;
+}
